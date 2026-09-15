@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { ShopComponent } from './components/shop/shop.component';
+import { ShopShellComponent } from './components/shop-shell/shop-shell.component';
 
 export const shopRoutes: Route[] = [
-  { path: '', component: ShopComponent },
+  { path: '', component: ShopShellComponent },
 ];
