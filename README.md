@@ -1,6 +1,6 @@
 # shop-web-client — Reals Shop
 
-> Angular 21 · Nx 22 · Port **4202** (dev & Docker)
+> Angular 21 · Nx 22 · Port **4203** (dev & Docker)
 
 Không gian **Mua sắm** trong hệ sinh thái Reals Platform. Chuyên trách Storefront, catalog sản phẩm, giỏ hàng và luồng thanh toán từ creators.
 
@@ -50,7 +50,7 @@ Không gian **Mua sắm** trong hệ sinh thái Reals Platform. Chuyên trách S
 
 ```bash
 npm install
-npm start          # → http://localhost:4202
+npm start          # → http://localhost:4203
 npm run build
 ```
 
@@ -61,7 +61,7 @@ npm run build
 docker compose build fe-shop
 docker compose up -d fe-shop
 
-# → http://localhost:4202
+# → http://localhost:4203
 ```
 
 Nginx phục vụ Angular bundle và proxy `/api/*` → `gateway:3000`.
